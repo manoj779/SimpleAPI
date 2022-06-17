@@ -51,7 +51,7 @@ namespace SimpleAPI.Controllers
         public ActionResult <string> Get(int id)
         {
             var rng = new Random();
-            return "Manoj Project";
+            return "Manoj Projec";
         }
     }
 }
