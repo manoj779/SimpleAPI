@@ -11,7 +11,7 @@ namespace SimpleAPI.Test
        public void GetReturnName()
        {
            var retunValue = controller.Get(1);
-           Assert.Equal("Manoj Projec",retunValue.Value);
+           Assert.Equal("Manoj Project",retunValue.Value);
        }
 
         [Fact]
